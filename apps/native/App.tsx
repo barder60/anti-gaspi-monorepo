@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { Button } from "ui";
+import { ButtonTest } from "ui"
 import { add } from "calculate"
 
 export default function Native() {
@@ -9,7 +9,7 @@ export default function Native() {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Native</Text>
-      <Button
+      <ButtonTest
         onClick={() => {
           console.log("Pressed!");
           alert("Pressed!");
