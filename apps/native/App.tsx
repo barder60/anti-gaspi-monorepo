@@ -8,7 +8,7 @@ export default function Native() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Native</Text>
+      <Text style={styles.header}>AntiGaspi</Text>
       {/* <ButtonTest
         onClick={() => {
           console.log("Pressed!");
