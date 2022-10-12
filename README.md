@@ -1,35 +1,21 @@
-# Turborepo react-native starter
-
-This is an official starter Turborepo.
+# AntiGaspi MonoRepo
 
 ## What's inside?
 
-This Turborepo includes the following packages/apps:
+Turbo qui est un framework de monoRepo contiendra : 
+- MonoRepo react native 
+- Front React
+- Api
 
-### Apps and Packages
+### Apps
 
-- `native`: a [react-native](https://reactnative.dev/) app built with [expo](https://docs.expo.dev/)
-- `web`: a [Next.js](https://nextjs.org) app built with [react-native-web](https://necolas.github.io/react-native-web/)
-- `ui`: a stub [react-native](https://reactnative.dev/) component library shared by both `web` and `native` applications
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+- `native`: [react-native](https://reactnative.dev/) app construit via expo [expo](https://docs.expo.dev/)
+- `web`: app react [react-native-web](https://necolas.github.io/react-native-web/)
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### Packages
 
-### Utilities
+- `calculate` 
+- `ui`: Library 
+a stub [react-native](https://reactnative.dev/) component library shared by both `web` and `native` applications
 
-This Turborepo has some additional tools already setup for you:
-
-- [Expo](https://docs.expo.dev/) for native development
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [Prettier](https://prettier.io) for code formatting
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx degit vercel/turborepo/examples/with-react-native-web with-react-native-web
-cd with-react-native-web
-yarn install
-git init . && git add . && git commit -m "Init"
-```
+Tous les apps et library sont developpé en typescript à 100% [TypeScript](https://www.typescriptlang.org/).
