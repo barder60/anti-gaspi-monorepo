@@ -2,14 +2,23 @@
   "name": "user-interface",
   "version": "1.0.1",
   "dependencies": {
+    "@react-navigation/native": "^6.0.13",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
+    "react-native-elements": "^3.4.2",
+    "react-native-masked-text": "^1.13.0",
+    "react-native-picker-select": "^8.0.4",
     "styled-components": "^5.3.6",
     "typescript": "latest"
   },
   "devDependencies": {
     "@types/jest": "^29.1.2",
+    "@types/lodash": "^4.14.186",
     "@types/react": "^18.0.21",
     "@types/react-native": "^0.70.4",
     "@types/react-test-renderer": "^18.0.0",
+    "@types/styled-components": "^5.1.26",
     "typescript": "^4.8.4"
   }
 }

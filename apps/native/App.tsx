@@ -1,16 +1,15 @@
 import { StyleSheet, Text, View } from "react-native"
 import { StatusBar } from "expo-status-bar"
-import { Hello } from "user-interface"
+import { Hello, FormInputs } from "user-interface"
 import { add } from "calculate"
+import { CreateAd } from "./CreateAd"
 
-export default function Native() {
-  add(2, 2)
+export default function App() {
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>AntiGaspi</Text>
-      <Hello name="Lucas"></Hello>
-      <StatusBar style="auto" />
+      <CreateAd/>
     </View>
   );
 }
